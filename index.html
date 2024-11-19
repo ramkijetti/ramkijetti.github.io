@@ -5,17 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ramki Jetti</title>
     <style>
+        *{
+            margin: 0px;
+        }
         .container {
             background-color:silver;
+            
 
         }
         .row{
             background-color: pink;
             display:flex;
-            justify-content:space-between;
+            justify-content: space-between;
         }
+        .row1{
+            display:flex;
+            justify-content: space-between;
+            padding: 20px;
+            height: 300px;
+            align-items: center;
+        }
+
         .box{
             background-color: yellow;
+            padding: 10px;
         }
     </style>
 </head>
@@ -29,13 +42,14 @@
     <a href="">Contact</a>
     <h3>My Name is Ramki i am a frontend developer</h3>
     <img src="https://picsum.photos/seed/picsum/200/300" -->
-    <div>
+    <div class="container"> 
         <div  class="row">
             <div>
-                <div>Ramki Jetti</div>
-                <div><a href="#">Home</a><a href="#">Projects</div>
+                <div><h1>Ramki Jetti</h1></div>
+                <div><a href="#">Home</a>  |  <a href="#">Projects</a> | <a href="#">About</a> | <a href="#">Services</a></div>
 
-            </div>
+            </div class ='row1'>
+            <img src="https://picsum.photos/seed/picsum/200/300">
         </div>
     </div>
 
